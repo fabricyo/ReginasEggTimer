@@ -1,0 +1,30 @@
+.home-container {
+    height: 100%;
+    margin: 1rem;
+    padding-top: .5rem;
+    border-radius: 1rem;
+    background-image: url("../assets/cloudy.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    font-family: "Grand Hotel", serif;
+    font-size: 1.5em;
+}
+
+.ovo-button {
+    width: 8rem;
+    height: auto;
+}
+
+.panqueca-button {
+    width: 11rem;
+    height: auto;
+    margin: .8rem 0 2rem 0;
+}
+
+.frito-button {
+    width: 8rem;
+    height: auto;
+    margin: .6rem 0 1.8rem 0;
+}

@@ -1,0 +1,35 @@
+.finish-logo {
+    margin-top: 4rem;
+    margin-inline: auto;
+    width: 8rem;
+    height: auto;
+}
+
+.finish-msg {
+    height: 6rem;
+    color: var(--sunset);
+    text-align: center;
+    font-family: 'Grand Hotel', serif;
+    padding: 1rem 0;
+    margin: 0 .5rem;
+    border-radius: 10px;
+    font-size: 2em;
+}
+
+.finish-button {
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--brown-color);
+    color: white;
+    padding: 1rem 1.5rem;
+    margin-inline: auto;
+    width: fit-content;
+    height: fit-content;
+    transition: all .2s ease-in-out;
+}
+
+.finish-button:hover {
+    transform: scale(1.1);
+}

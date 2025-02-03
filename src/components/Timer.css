@@ -1,0 +1,51 @@
+.timer {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.timer h2, h3 {
+    font-size: 2.5em;
+    color: var(--sunset);
+    font-family: 'Grand Hotel', serif;
+}
+
+.timer h2 {
+    margin-top: 1rem;
+}
+
+.timer-controls {
+    margin-top: 10px;
+}
+
+.timer-controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--brown-color);
+    color: white;
+}
+
+.timer-controls button:hover:not(:disabled) {
+    background-color: var(--sunset);
+}
+
+.regina-to-rotate {
+    width:8rem;
+    height:auto;
+}
+
+.animate-rotation {
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

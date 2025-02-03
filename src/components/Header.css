@@ -1,0 +1,55 @@
+.header-card {
+    background-color: var(--soft-green);
+    color: var(--sunset);
+    text-align: center;
+    font-family: 'Grand Hotel', serif;
+    padding: 1rem 0;
+}
+.header-card h1 {
+    margin: 0;
+}
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-span {
+    padding: 0;
+    margin: 1rem 0 0 0;
+    font-size: 1.9rem;
+}
+
+.header-logo {
+    width: 4rem;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.loading:after {
+    content: ' .';
+    animation: dots 2s steps(5, end) infinite;}
+
+@keyframes dots {
+    0%, 20% {
+        color: rgba(0,0,0,0);
+        text-shadow:
+                .25em 0 0 rgba(0,0,0,0),
+                .5em 0 0 rgba(0,0,0,0);
+    }
+    40% {
+        color: var(--sunset);
+        text-shadow:
+                .25em 0 0 rgba(0,0,0,0),
+                .5em 0 0 rgba(0,0,0,0);
+    }
+    60% {
+        text-shadow:
+                .25em 0 0  var(--sunset),
+                .5em 0 0 rgba(0,0,0,0);
+    }
+    80%, 100% {
+        text-shadow:
+                .25em 0 0  var(--sunset),
+                .5em 0 0  var(--sunset);
+    }
+}

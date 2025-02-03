@@ -1,0 +1,15 @@
+.button {
+    margin: .6rem;
+    padding: 1rem 1.5rem;
+    background-color: var(--beige-color);
+    color: var(--sunset);
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+    height: 12rem;
+    transition: all .2s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --sunset: #FF6F61;
+  --brown-color: #D9A06D;
+  --creme-color: #F7C6A0;
+  --beige-color: #F2E1D4;
+  --soft-green: #A8D8B9;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+
